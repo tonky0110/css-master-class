@@ -1,12 +1,7 @@
 .father {
 	display: flex;
-	flex-direction: column;
-
-	/* main axis */
-	justify-content: space-around;
-	/* cross axis */
-	width: 100%;
-	height: 100vh;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .child {
@@ -17,9 +12,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: clumn wrap;
 }
 
-.child:nth-child(2) {
-	background: black;
+.child:nth-child(4) {
+	margin-top: 10px;
 }

@@ -14,12 +14,7 @@
 	background-color: peru;
 	color: white;
 	font-size: 50px;
-}
-
-.child:nth-child(1) {
-	order: 2;
-}
-
-.child:nth-child(2) {
-	order: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

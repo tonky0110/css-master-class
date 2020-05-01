@@ -1,11 +1,11 @@
 .father {
 	display: flex;
-	flex-direction: row-reverse;
+
 	/* main axis */
 	justify-content: space-around;
 	/* cross axis */
 	height: 100vh;
-	flex-wrap: nowrap;
+	flex-wrap: wrap-reverse;
 }
 
 .child {

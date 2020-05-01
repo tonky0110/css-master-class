@@ -21,5 +21,9 @@
 
 .child:nth-child(2) {
 	background: black;
-	flex-shrink: 2;
+	flex-grow: 2;
+}
+
+.child:nth-child(3) {
+	flex-grow: 1;
 }

@@ -5,6 +5,7 @@
 	justify-content: space-around;
 	/* cross axis */
 	height: 100vh;
+	flex-wrap: nowrap;
 }
 
 .child {

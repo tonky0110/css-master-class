@@ -1,6 +1,6 @@
 .father {
 	display: flex;
-
+	flex-direction: row-reverse;
 	/* main axis */
 	justify-content: space-around;
 	/* cross axis */

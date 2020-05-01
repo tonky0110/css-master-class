@@ -4,8 +4,9 @@
 	/* main axis */
 	justify-content: space-around;
 	/* cross axis */
+	align-content: center;
 	height: 100vh;
-	flex-wrap: wrap-reverse;
+	flex-wrap: wrap;
 }
 
 .child {

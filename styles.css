@@ -5,28 +5,16 @@ body {
 
 .grid {
 	color: white;
-	background: #000;
 	display: grid;
 	gap: 5px;
-	height: 50vh;
 	grid-template-columns: repeat(4, 100px);
 	grid-template-rows: repeat(4, 100px);
-	place-content: end center;
+	place-content: center center;
 }
 
-.header {
+.item:nth-child(odd) {
 	background-color: #2ecc71;
-	place-self: end center;
 }
-
-.content {
+.item:nth-child(even) {
 	background-color: #3498db;
-}
-
-.nav {
-	background-color: #8e44ad;
-}
-
-.footer {
-	background-color: #f39c12;
 }

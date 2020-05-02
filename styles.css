@@ -4,12 +4,14 @@ body {
 }
 
 .grid {
+	color: white;
+	background: #000;
 	display: grid;
 	gap: 5px;
 	height: 50vh;
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(4, 1fr);
-	place-items: stretch center;
+	grid-template-columns: repeat(4, 100px);
+	grid-template-rows: repeat(4, 100px);
+	justify-content: center;
 }
 
 .header {

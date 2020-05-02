@@ -16,8 +16,7 @@ body {
 
 .header {
 	background-color: #2ecc71;
-	align-self: center;
-	justify-self: center;
+	place-self: end center;
 }
 
 .content {

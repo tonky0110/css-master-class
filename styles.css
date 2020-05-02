@@ -8,9 +8,9 @@ body {
 	gap: 5px;
 	height: 50vh;
 	grid-template:
-		[header-start] "header header header header" 1fr [header-end]
-		[content-start] "content content content nav" 2fr [content-end]
-		[footer-start] "footer footer footer footer" 1fr [footer-end] / 1fr 1fr 1fr 1fr;
+		"header header header header" 1fr
+		"content content content nav" 2fr
+		"footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr;
 }
 
 .header {
